@@ -104,6 +104,7 @@ All colors MUST be HSL.
 
   .scroll-section {
     scroll-snap-align: start;
+    scroll-snap-stop: always;
   }
 }
 
