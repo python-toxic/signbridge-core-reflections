@@ -9,7 +9,7 @@ import { InvitationSection } from '../components/InvitationSection';
 
 const Index = () => {
   return (
-    <div className="overflow-x-hidden scroll-smooth" style={{ scrollSnapType: 'y mandatory' }}>
+    <div className="overflow-x-hidden">
       <Navbar />
       <HeroSection />
       <PromiseSection />
