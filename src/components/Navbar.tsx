@@ -26,22 +26,22 @@ export const Navbar = () => {
       case 'experience':
       case 'invitation':
         return {
-          bg: 'bg-reflective-navy/95 backdrop-blur-sm',
-          text: 'text-reflective-cream',
-          hover: 'hover:text-white'
-        };
-      case 'promise':
-      case 'ai':
-        return {
           bg: 'bg-reflective-beige/95 backdrop-blur-sm',
           text: 'text-reflective-burgundy',
           hover: 'hover:text-reflective-crimson'
         };
+      case 'promise':
+      case 'ai':
+        return {
+          bg: 'bg-reflective-navy/95 backdrop-blur-sm',
+          text: 'text-reflective-cream',
+          hover: 'hover:text-white'
+        };
       default:
         return {
           bg: 'bg-transparent',
-          text: 'text-reflective-cream',
-          hover: 'hover:text-white'
+          text: 'text-reflective-burgundy',
+          hover: 'hover:text-reflective-crimson'
         };
     }
   };

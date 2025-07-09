@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 
 export const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-reflective-navy flex items-center justify-center scroll-section relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-reflective-navy via-reflective-navy to-slate-900 opacity-50"></div>
+    <section className="min-h-screen bg-reflective-beige flex items-center justify-center scroll-section relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-br from-reflective-beige via-reflective-beige to-amber-100 opacity-50"></div>
       
       <div className="relative z-10 text-center px-8 max-w-4xl mx-auto">
         <motion.h1
-          className="font-playfair text-6xl md:text-8xl font-bold text-reflective-cream mb-8 leading-tight"
+          className="font-playfair text-6xl md:text-8xl font-bold text-reflective-burgundy mb-8 leading-tight"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
@@ -18,7 +18,7 @@ export const HeroSection = () => {
         </motion.h1>
         
         <motion.p
-          className="font-inter text-xl md:text-2xl text-reflective-cream/80 mb-12 font-light leading-relaxed"
+          className="font-inter text-xl md:text-2xl text-reflective-burgundy/80 mb-12 font-light leading-relaxed"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
@@ -28,7 +28,7 @@ export const HeroSection = () => {
         
         <motion.a
           href="#experience"
-          className="text-link font-inter text-lg text-reflective-cream hover:text-white transition-colors duration-300 font-light"
+          className="text-link font-inter text-lg text-reflective-burgundy hover:text-reflective-crimson transition-colors duration-300 font-light"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 1 }}
@@ -40,7 +40,7 @@ export const HeroSection = () => {
       
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <motion.div
-          className="w-px h-16 bg-reflective-cream/30"
+          className="w-px h-16 bg-reflective-burgundy/30"
           initial={{ scaleY: 0 }}
           animate={{ scaleY: 1 }}
           transition={{ duration: 0.8, delay: 1.5 }}
